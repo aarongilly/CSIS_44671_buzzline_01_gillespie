@@ -53,9 +53,9 @@ def process_message(log_file) -> None:
 
             # monitor and alert on special conditions
             if "Rolled [1, 1] for a total of 2" in message:
-                print(f"AHHH! SNAKES!")
-                logger.warning(f"ALERT: The special condition was found \n{message}")
-                # return
+                print(f"The special condition was found \n{message}")
+                logger.warning(f"AHHHHHH SNAKE!!!!!")
+                return
 
 
 #####################################
